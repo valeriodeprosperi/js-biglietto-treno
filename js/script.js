@@ -13,11 +13,11 @@ prezzoBiglietto = kmUtente * 0.21;
 // sconto 20%minorenni 40% over 65
 
 if (etàUtente < 18) {
-  (prezzoBiglietto - prezzoBiglietto  * 20 / 100);
+  prezzoBiglietto = (prezzoBiglietto - prezzoBiglietto  * 20 / 100);
 } else if (etàUtente > 65){
-  (prezzoBiglietto - prezzoBiglietto * 40 / 100);
+  prezzoBiglietto = (prezzoBiglietto - prezzoBiglietto * 40 / 100);
 } else {
-  (prezzoBiglietto);
+  prezzoBiglietto = (prezzoBiglietto);
 }
 
 
