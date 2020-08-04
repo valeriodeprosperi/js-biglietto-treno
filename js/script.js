@@ -20,6 +20,7 @@ if (etàUtente < 18) {
   (prezzoBiglietto);
 }
 
-document.getElementById('prezzo_bigl').innerHTML = prezzoBiglietto;
+
 document.getElementById('ut_u18').innerHTML = (prezzoBiglietto * 20 / 100);
 document.getElementById('ut_o65').innerHTML = (prezzoBiglietto * 40 / 100);
+document.getElementById('prezzo_bigl').innerHTML = prezzoBiglietto;
